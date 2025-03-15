@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Eupoecilia Ambiguella']
+
+roboflow:
+  workspace: pestimages
+  project: eupoecilia_ambiguella_object_detection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pestimages/eupoecilia_ambiguella_object_detection/dataset/2
